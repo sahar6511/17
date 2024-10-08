@@ -1,0 +1,18 @@
+.room-box{
+    box-shadow : 0 0.5rem 1rem rgba(0,0,0,0.15) !important;
+    @include column-flex;
+    @extend .p-30;
+    .room-box--title{
+        @include spacebetween-flex;
+    }
+    .room-box--icon{
+        @include spacebetween-flex;
+            li{
+
+                @include spacebetween-flex;
+                gap:10px
+            }
+       
+    }
+    }
+
